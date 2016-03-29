@@ -3,12 +3,11 @@
  */
 savantVersion = "1.0.0"
 
-project(group: "com.inversoft.passport", name: "passport-plugin-api", version: "1.0.10", licenses: ["Commercial"]) {
+project(group: "com.inversoft.passport", name: "passport-plugin-api", version: "1.0.10", licenses: ["ApacheV2_0"]) {
   workflow {
     standard()
     fetch {
-      url(url: "http://savant.inversoft.com/internal/", username: "savant",
-          password: "KJsljeo30990op309)(0-3ljwklds09390ljkaljkd98(*hoisd")
+      url(url: "http://savant.inversoft.com/internal/", username: "savant", password: "KJsljeo30990op309)(0-3ljwklds09390ljkaljkd98(*hoisd")
     }
   }
 
