@@ -23,4 +23,6 @@ public interface PasswordEncryptor {
    * @return The encrypted password.
    */
   String encrypt(String password, String salt, int factor);
+
+
 }
