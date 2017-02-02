@@ -4,7 +4,7 @@ This project provides the APIs and SPIs that are used to write Passport plugins.
 
 Currently, there is a single plugin SPI for Passport that allows customers to support different password encryption schemes. This interface is `com.inversoft.passport.plugin.spi.security.PasswordEncryptor`.
 
-You can learn more about Passport plugins by visiting our documentation page at [https://www.inversoft.com/docs/passport/1.x/tech/plugins/](https://www.inversoft.com/docs/passport/1.x/tech/plugins/).
+You can learn more about Passport plugins by visiting our documentation page at [https://www.inversoft.com/docs/passport/1.x/tech/plugins/writing-a-plugin](https://www.inversoft.com/docs/passport/1.x/tech/plugins/writing-a-plugin).
 
 ## Building this project
 
