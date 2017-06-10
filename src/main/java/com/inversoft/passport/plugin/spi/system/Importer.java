@@ -14,10 +14,11 @@ import java.nio.file.Path;
 public interface Importer {
 
   /**
-   * Perform the import process. This method may throw {@link ImportException}, all other exceptions will be smothered.
-   * If you need to throw an exception wrap it in the <code>ImportException</code>.
+   * Perform the import process. The importer should log errors for debug purposes if <code>false</code> is returned.
+   *
+   * @return true if the import was successful.
    */
-  void doImport(Path file);
+  boolean doImport(Path file);
 
   /**
    * @return return a description of how the plugin works and what it does.
