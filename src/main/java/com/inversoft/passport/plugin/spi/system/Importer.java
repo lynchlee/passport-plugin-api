@@ -12,13 +12,12 @@ import java.nio.file.Path;
  * @author Daniel DeGroff
  */
 public interface Importer {
-
   /**
    * Perform the import process. The importer should log errors for debug purposes if <code>false</code> is returned.
    *
    * @return true if the import was successful.
    */
-  boolean doImport(Path file);
+  boolean doImport(Path file, String password);
 
   /**
    * @return return a description of how the plugin works and what it does.
